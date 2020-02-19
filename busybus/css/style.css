@@ -39,20 +39,32 @@ h4 {
   color: #007AFF;
 }
 
+#statusbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
 .headerbar {
   width: 100%;
   background-color: #F9F9F9;
   margin: auto;
   text-align: center;
-  padding: 60px 30px 30px 30px;
-  height: 115px;
-  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  height: 80px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
+  position: fixed;
+  top: 20px;
 }
 
 .busstop-location {
   width: 100%;
+}
+
+.route-container {
+  margin-top: 140px;
 }
 
 .divider {
